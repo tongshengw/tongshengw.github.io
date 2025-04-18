@@ -1,4 +1,43 @@
-<div>
-	Hi, I'm Tongsheng Wu, a CS student at The University of Michigan
-	<a href="https://www.github.com/tongshengw">My Github</a>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Link</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border: 1px solid #0066cc;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            background-color: #0066cc;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.github.com/tongshengw">Click Me</a>
+    </div>
+</body>
+</html>
